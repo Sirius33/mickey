@@ -2,27 +2,22 @@
 /* reset styles */
 * { margin: 0px; padding: 0px; }
 
-/* make the background of the page black */
-body { background: #eaafaf;}
+/* make the background of the page #0a0a0a */
+body { background: #d40e0e;}
 
 /* mickey canvas */
 #canvas {
   width: 400px;
   height: 600px;
-  background: #e83a7a;
-  position:absolute;
-  left: 140px;
-
+  position: relative;
+  background: #0239ff;
 }
 
 /* shapes */
 /* make all divs inside of #canvas a circle */
 #canvas div{
   border-radius: 200px;
-  top: 40px;
-  left: 50px
-
-
+  position: absolute;
 }
 
 /* 
@@ -34,12 +29,9 @@ to position them
 #ear-1 {
   width: 100px;
   height: 100px;
-  background: #d65bec;
-  position:absolute;
-  top: 50px;
-  left: 100px;
-
-
+  background: black;
+  top:100px;
+  left:180px;
 
 
   /* try uncommenting the following code
@@ -52,9 +44,8 @@ to position them
   width: 100px;
   height: 100px;
   background: black;
-  position:absolute;
-  top: 100px;
-  left: 150px;
+  top:80px;
+  left:50px;
 
 }
 
@@ -62,73 +53,81 @@ to position them
   width: 140px;
   height: 140px;
   background: beige;
-  position:absolute;
-  top: 200px;
-  left: 100px;
+  top:150px;
+  left:70px;
 
 }
 
 #eye-1 {
   width: 25px;
   height: 25px;
-  background: black;
-  position: absolute;
-  right:20px;
-  top: 150px;
- 
-
+  background: #F44336;
+  top:190px;
+  left:70px;
+   
 }
 
 #eye-2 {
   width: 25px;
   height: 25px;
-  background: black;
-  position: absolute;
-  right:40px;
-  top: 150px;
+  background: #F44336;
+  top:200px;
+  left:120px;
 }
 
 #nose {
   width: 45px;
   height: 45px;
-  background: #191818;
-  position: absolute
-  top:120px;
-  left:110px;
+  background: black;
+  top:205px;
+  left: 40px;
 }
 
 #mouth {
   width: 35px;
   height: 35px;
   background: red;
+  top:240px;
+  left: 87px;
 }
 
 #body {
   width: 160px;
   height: 160px;
   background: red;
+  top:295px;
+  left:70px;
+
 }
 
 #button-1 {
   width: 32px;
   height: 32px;
   background: black;
+  top:365px;
+  left: 95px;
 }
 
 #button-2 {
   width: 32px;
   height: 32px;
   background: black;
+  top:365px;
+  left:145px;
 }
 
 #foot-1 {
   width: 150px;
   height: 150px;
   background: yellow;
+  top:425px;
+ 
 }
 
 #foot-2 {
   width: 150px;
   height: 150px;
   background: yellow;
+  top:425px;
+  left:165px;
 }
